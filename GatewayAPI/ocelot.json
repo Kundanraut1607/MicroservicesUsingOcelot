@@ -1,0 +1,20 @@
+{
+  "Routes": [
+    "UpstreamPathTemplate":"api/Customer",
+    "UpstreamHttpMethod":["Get"],
+
+
+    "DownstreamScheme":"https",
+    "DownstreamHostAndPorts":[
+      "Host": "https://localhost:7059",
+      "Port":7059
+    ],
+    "DownstreamPath": "/api/Customer"
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7059"
+  }
+
+}
